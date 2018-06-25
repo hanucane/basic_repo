@@ -1,0 +1,9 @@
+mkdir git_remote
+cd git_remote
+touch simple.txt
+touch hello_world.html
+git init
+git add .
+git commit -m "git remote initial commit"
+git remote add origin https://github.com/hanucane/basic_repo.git
+git push -u origin master
